@@ -1,0 +1,54 @@
+DATA CLEANING & PREPARATION REPORT - PROJECT 1
+
+Batch: 2026
+Date: [22/06/2026]
+Analyst: [Samy Kumar]
+
+Change ID: CR001
+Description: Imputed missing values in 'CouponCode'
+Action: Replaced blank cells with "No Coupon"
+Impact: Standardized column, retained all records
+Status: Resolved
+
+Change ID: CR002
+Description: Audited for duplicate entries
+Action: Used "Remove Duplicates" on OrderID
+Impact: Confirmed 0 duplicates exist in the dataset
+Status: Resolved
+
+Change ID: CR003
+Description: Standardized date column
+Action: Changed cell format to YYYY-MM-DD
+Impact: All dates are now consistently formatted
+Status: Resolved
+
+Change ID: CR004
+Description: Formatted UnitPrice and TotalPrice
+Action: Applied number format with 2 decimal places
+Impact: Standardized monetary values to currency standard
+Status: Resolved
+
+Change ID: CR005
+Description: Standardized text fields
+Action: Applied PROPER(TRIM()) to text columns
+Impact: Ensured consistency in text data
+Status: Resolved
+
+Change ID: CR006
+Description: Validated TotalPrice calculation
+Action: Verified Quantity * UnitPrice
+Impact: Ensured data integrity in financial calculations
+Status: Resolved
+
+FINAL CHECKS:
+- Duplicate IDs: 0
+- Incorrect Date Formats: 0
+- Missing Values: 0 (after imputation)
+- TotalPrice Mismatches: 0
+
+CONCLUSION:
+All data cleaning tasks completed successfully. 
+The dataset is now ready for analysis and modeling.
+
+---
+DecodeLabs | Project 1 | Data Cleaning & Preparation
