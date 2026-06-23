@@ -1,0 +1,76 @@
+EXPLORATORY DATA ANALYSIS REPORT - PROJECT 2
+
+Batch: 2026
+Date: [23/06/2026]
+Analyst: Samy Kumar
+
+---
+
+1. PROBLEM STATEMENT
+-------------------------
+This analysis aims to understand customer purchasing patterns, identify top-selling products, examine payment preferences, analyze order status distribution, evaluate marketing channel effectiveness, and uncover trends in order behavior.
+
+---
+
+2. METHODOLOGY
+-------------------------
+- Data Source: W2. Dataset for Data Analytics
+- Tools Used: Microsoft Excel
+- Methods: Descriptive statistics, Pivot Tables, Correlation Analysis, Outlier Detection (IQR method)
+
+---
+
+3. KEY FINDINGS
+-------------------------
+
+A. PRODUCT ANALYSIS
+- Total Products Sold: 3,535 units
+- Total Revenue Generated: ₹1,264,761.96
+- Best Selling Product: Chair (562 units)
+- Highest Revenue Product: Chair (₹195,620.11)
+- Product Ranking by Revenue:
+  1. Chair: ₹195,620.11
+  2. Printer: ₹195,612.61
+  3. Laptop: ₹192,126.56
+  4. Tablet: ₹186,568.95
+  5. Monitor: ₹175,651.41
+  6. Desk: ₹167,459.93
+  7. Phone: ₹151,722.39
+
+B. PAYMENT METHODS
+- Most Popular: [From Payment Method Pivot]
+- Least Popular: [From Payment Method Pivot]
+
+C. ORDER STATUS
+- Shipped: [Count]
+- Delivered: [Count]
+- Cancelled: [Count]
+- Returned: [Count]
+- Pending: [Count]
+
+D. REFERRAL SOURCES
+- Top Channel: [Source] generating ₹[Amount]
+- [From Referral Source Pivot]
+
+E. COUPON USAGE
+- With Coupon: [Count]
+- Without Coupon: [Count]
+
+F. KEY STATISTICS
+- Average Order Value: ₹[From U3]
+- Median Order Value: ₹[From U4]
+- Min Order Value: ₹[From U5]
+- Max Order Value: ₹[From U6]
+
+G. OUTLIERS
+- Total Outliers: [From S6]
+- Lower Bound: ₹[From S4]
+- Upper Bound: ₹[From S5]
+
+H. CORRELATIONS
+- Quantity vs TotalPrice: [From U25]
+- UnitPrice vs TotalPrice: [From U27]
+
+
+
+DecodeLabs | Project 2 | Exploratory Data Analysis
